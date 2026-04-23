@@ -116,5 +116,7 @@ If you want the body switched from a table to a strict repeating block format (e
 
 ================================================================
 
+## PROMPT
+
 analyze and generate a report for this folder "C:\Data_files\iac\shipstampede-platform" if there is a violation of DDD and Hexagonal architecture like Cross BC calling or each packages and controller. How the report would go is use list of the violations - filename, violation, path, fix, then the list would go on. Put the generated report on this file "C:\Data_files\iac\analysis_docs\Cross_BC_violations.md"
 
