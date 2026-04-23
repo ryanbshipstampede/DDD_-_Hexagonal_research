@@ -92,7 +92,7 @@ Each item: **filename**, **violation**, **path**, **fix**.
 
 *Generated from repository state on 2026-04-23. Re-run after refactors to validate import graphs (e.g. `pnpm exec rg "from '@shipstampede/.*-core" packages/*/core`).*
 
-====================================================================================================================
+============================================================
 
 The report is saved at **`C:\Data_files\iac\analysis_docs\Cross_BC_violations.md`**.
 
@@ -114,7 +114,7 @@ The report is saved at **`C:\Data_files\iac\analysis_docs\Cross_BC_violations.md
 If you want the body switched from a table to a strict repeating block format (e.g. repeated `###` sections per file), say so and it can be reformatted in place.
 
 
-==========================================================================================================================================================================================================
+================================================================
 
 analyze and generate a report for this folder "C:\Data_files\iac\shipstampede-platform" if there is a violation of DDD and Hexagonal architecture like Cross BC calling or each packages and controller. How the report would go is use list of the violations - filename, violation, path, fix, then the list would go on. Put the generated report on this file "C:\Data_files\iac\analysis_docs\Cross_BC_violations.md"
 
