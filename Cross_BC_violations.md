@@ -1,6 +1,6 @@
 # DDD / Hexagonal architecture review — `shipstampede-platform`
 
-**Scope:** `C:\Data_files\iac\shipstampede-platform`  
+**Scope:** `..\shipstampede-platform`  
 **Method:** Static analysis of package imports (`@shipstampede/*`), module loaders, and `apps/backend-api` controllers/middleware.  
 **Conventions referenced:** In-repo DDD layout (`packages/{domain}/core` vs `adapters`), Lookup Service / ACL pattern (consumer **core** must not depend on another BC’s repositories; cross-BC data via interfaces implemented in **adapters**), hexagonal dependency direction (primary adapters should depend on application/domain ports, not infrastructure barrels).
 
@@ -94,7 +94,7 @@ Each item: **filename**, **violation**, **path**, **fix**.
 
 ============================================================
 
-The report is saved at **`C:\Data_files\iac\analysis_docs\Cross_BC_violations.md`**.
+The report is saved at **`..\analysis_docs\Cross_BC_violations.md`**.
 
 ### What it contains
 
@@ -118,5 +118,5 @@ If you want the body switched from a table to a strict repeating block format (e
 
 ## PROMPT
 
-analyze and generate a report for this folder "C:\Data_files\iac\shipstampede-platform" if there is a violation of DDD and Hexagonal architecture like Cross BC calling or each packages and controller. How the report would go is use list of the violations - filename, violation, path, fix, then the list would go on. Put the generated report on this file "C:\Data_files\iac\analysis_docs\Cross_BC_violations.md"
+analyze and generate a report for this folder "..\shipstampede-platform" if there is a violation of DDD and Hexagonal architecture like Cross BC calling or each packages and controller. How the report would go is use list of the violations - filename, violation, path, fix, then the list would go on. Put the generated report on this file "..\analysis_docs\Cross_BC_violations.md"
 
